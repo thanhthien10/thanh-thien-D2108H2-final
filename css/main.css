@@ -1,0 +1,195 @@
+/* CSS Document */
+*{ margin:0; padding:0; box-sizing: border-box }
+.header{
+	width:100%;
+	position:absolute;
+	z-index: 1000;
+	background:#1f1f1f;
+	opacity:.8
+}
+.logo {overflow:hidden; padding: 5px 0 2px
+}
+.logo img{
+	width:65px; height: 62px
+}
+.nav li{ margin: 0 24px }
+.nav ul{ list-style:none }
+.nav a{ color: white ;
+       font-size: 20px; font-weight:700;
+	   text-decoration: none }
+.nav li a:hover{
+	color: red;
+	
+}
+.banner{
+	background: url("../img/incense-sticks-gf33ec0d72_1920.jpg");
+	padding: 200px 0;
+	background-position: center;
+	background-attachment: fixed
+}
+.banner h1{
+	font-size: 48px;
+    line-height: 63px;
+	color:white;
+	font-weight: 400
+}
+.banner p{
+	color: white;
+	line-height: 60px; font-size: 20px; 
+}
+.section-2{
+	background: #1f1f1f
+}
+.box-1{
+	height:640px; overflow: hidden; border-radius: 150px 150px 0 0 ;
+}
+.nd{
+	width:100%;
+	height:100%;
+	padding: 40px 0 0 0;
+	color: white
+}
+.nd h1{
+	color:#B4270C; letter-spacing:2px; margin-bottom: 18px; font-size: 38px;text-align: center
+}
+.nd p{
+	line-height: 40px; text-indent: 40px; letter-spacing: 1.7px; opacity: .9; margin-bottom: 18px
+}
+.nd span{
+	opacity:.9;letter-spacing: 1.7px;
+}
+.nd a{ color:#F0E15C;
+	text-decoration: none
+}
+.nd a:hover{ color:#5164F5}
+.box-2 h1{
+	color:#F0E15C ;
+	font-size:45px;
+	letter-spacing:2px ;
+	margin: 250px 0 0 100px
+}
+.box{ 
+	margin: 100px
+}
+.box li{
+	font-size: 20px;
+	line-height: 30px; letter-spacing: 1.7px; opacity: .9;
+	color:white; 
+}
+.section-3{
+	background:url("../img/11.png");
+	background-position: center;
+	background-size:cover;
+	padding: 5px 0;
+	background-attachment: fixed;
+}
+.section-3:hover{
+	background:url("../img/pexels-quang-nguyen-vinh-6346788.jpg");
+	background-position: center;
+	background-size:cover;
+	padding: 5px 0;
+	background-attachment: fixed;
+
+}
+.section-4{
+	padding: 80px 0px 80px 0; background: #1f1f1f; 
+}
+.section-4 h1{
+	margin-bottom: 40px; color: #B4270C; letter-spacing:2px; font-size: 38px
+}
+.feature{
+	overflow: hidden;
+	height:270px;
+	background:url("../img/lang-huong-xa-cao-thon-hung-yen.jpg");
+	background-position:left ;
+	background-size:cover;
+	position:relative;
+}
+.feature-2{
+	overflow: hidden;
+	height:270px;
+	background:url("../img/momo-upload-api-220511104622-637878627829564393.jpeg");
+	background-position:center ;
+	background-size:cover;
+	position:relative;
+}
+.feature-3{
+	overflow: hidden;
+	height:270px;
+	background:url("../img/871da8a78725fc0097f790850ae19f22.jpg");
+	background-position:center ;
+	background-size:cover;
+	position:relative;
+}
+.feature-4{
+	overflow: hidden;
+	height:270px;
+	background:url("../img/29acc12f3102b9fabc98c6512b61b59a.jpg");
+	background-position:center ;
+	background-size:cover;
+	position:relative;
+}
+.stroke{
+	height: 300px;
+	border-bottom: 3px solid #F0E15C  ;
+	position:relative; bottom:220px
+}
+.stroke h2{
+	padding-top: 250px;
+	text-align: center;
+	font-weight: 500;line-height: 40px; letter-spacing: 1.7px; opacity: .9;
+}
+.stroke a{ color: white;
+	text-decoration: none; }
+.stroke a:hover{
+	color: #B4270C
+}
+.span{
+	color: white
+}
+.box-4{
+	height: 350px
+}
+.see{
+	margin-top: 35px; padding-left: 50px
+}
+.see a{
+	color: #1f1f1f;
+	text-decoration: none;
+	background:#F0E15C;
+	padding: 5px 10px; border-radius: 8px
+}
+.see a:hover{
+	background-color: #B4270C
+}
+.footer{
+	width:100%; height: 500px;
+	position:absolute;
+	background: #1f1f1f;
+	opacity: .8;
+	padding-top: 30px
+}
+.footer a{
+	font-size: 18px;
+	font-weight: 300
+}
+
+.t{
+	width:530px;
+	padding: 30px 10px 0 0  ;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 1.7px; opacity: .9; font-weight: 300;
+	font-size: 15px
+}
+.right a{
+	color: white;
+	letter-spacing: 1.7px; opacity: .9; 
+	text-decoration: none;
+	font-size:15px
+}
+.footer{
+	height:270px;
+	width:100%
+}
